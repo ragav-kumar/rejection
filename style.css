@@ -1,0 +1,43 @@
+* {
+	font-family: sans-serif;
+}
+h1, h3, p, .form-row {
+	text-align: center;
+}
+
+.form-row {
+	display: block;
+	line-height: 2em;
+	font-size: 24px;
+}
+.form-row label {
+	min-width: 100px;
+	display: inline-block;
+}
+.form-row input {
+	font-size: 24px;
+}
+
+.button {
+	text-decoration: none;
+	color: #fff;
+	padding: 20px;
+	text-transform: uppercase;
+	margin: 10px;
+	display: inline-block;
+	font-size: 24px;
+	font-weight: bold;
+	cursor: pointer;
+}
+.accept-btn {
+	background-color: hsl(120, 100%, 25%);
+}
+.reject-btn {
+	background-color: hsl(0, 100%, 50%);
+}
+.accept-btn:hover {
+	background-color: hsl(120, 80%, 25%);
+}
+.reject-btn:hover {
+	background-color: hsl(0, 60%, 50%);
+}
